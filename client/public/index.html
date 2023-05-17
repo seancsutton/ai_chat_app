@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat App</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            font-family: 'Orbitron', sans-serif;
+            color: #00ff00;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #ff0000;
+        }
+        textarea {
+            background-color: #300000;
+            color: #fff;
+            border-color: #ff0000;
+            border-style: solid;
+            width: 60%;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #300000;
+            color: #fff;
+            border-color: #ff0000;
+            border-style: solid;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+        button:active {
+            background-color: #ff0000;
+            color: #300000;
+        }
+        #mute {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Chat App</h1>
+    <textarea id="output" readonly></textarea>
+    <button id="start">Start Recording</button>
+    <button id="stop" disabled>Stop Recording</button>
+    <button id="mute">Mute/Unmute</button>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="you will need to put your ResponsiveVoice link here"></script>
+    <script src="app.js"></script>
+</body>
+</html>
