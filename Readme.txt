@@ -1,6 +1,6 @@
 ## AI Chat App
 
-This is an AI-powered chat application that uses OpenAI's GPT-4 language model for generating chat responses. It has a sleek, cyberpunk themed front-end designed to be used anywhere through the internet.
+This is an AI-powered chat application that uses OpenAI's GPT-4 language model for generating chat responses. It has a front-end designed to be used anywhere through the internet.
 
 ### Prerequisites
 
